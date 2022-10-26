@@ -10,7 +10,7 @@ Having price object, how would you write Shipping and Tax objects, to change the
 and 20 for discount?
  Use OOP. 
 
-Math should be `$finalPrice = (100 * (1 - 20/100)) + 8`
+Math should be `$finalPrice = (100 * (1 - discount/price)) + shipping`
 
 > What design pattern have you used?
 
