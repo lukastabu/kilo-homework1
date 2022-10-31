@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Test\Unit;
 
 use App\DemoRun;
-use App\Kata2\FreeShippingCalculator;
+use App\Kata2\FreeShippingPriceCalculator;
 use App\Kata2\PriceCalculator;
 
 class DemoRunTest extends \PHPUnit\Framework\TestCase
@@ -25,7 +25,7 @@ class DemoRunTest extends \PHPUnit\Framework\TestCase
     public function testKata2(): void
     {
         $this->assertEquals(88, $this->runner->kata2(new PriceCalculator()));
-        $this->assertEquals(80, $this->runner->kata2(new FreeShippingCalculator()));
+        $this->assertEquals(80, $this->runner->kata2(new FreeShippingPriceCalculator()));
     }
 
     public function testKata3(): void
