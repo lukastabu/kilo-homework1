@@ -20,7 +20,8 @@ class DemoRun
         // new Price(100);
 
         //change me!!!
-        return 88;
+//        return 88;
+        return (new Shipping(8, new Discount(20, new Price(100))));
     }
 
     public function kata2(PriceCalculatorInterface $calculator)
