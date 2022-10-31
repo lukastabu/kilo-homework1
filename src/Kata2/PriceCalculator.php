@@ -9,5 +9,6 @@ class PriceCalculator implements PriceCalculatorInterface
     public function calculate(float $price, float $discount, float $tax)
     {
         // TODO: Implement calculate() method.
+        return ($price * $discount) + $tax;
     }
 }

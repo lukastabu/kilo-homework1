@@ -31,7 +31,8 @@ class DemoRun
         // new Price(100);
 
         //oh, no! what a crap, change me now!
-        return 88;
+//        return 88;
+        return $calculator->calculate(100, 20, 8);
     }
 
     public function kata3()
